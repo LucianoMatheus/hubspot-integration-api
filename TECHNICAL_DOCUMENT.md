@@ -19,7 +19,7 @@ A aplicação permite a modularização e é extensível para futuras necessidad
 - A API implementa um fluxo simplificado com geração de URL de autorização, callback para captura do `code` e troca por `access_token`.
 
 ### 3. **Criação de Contatos no HubSpot**
-- Utilizei a API oficial do HubSpot com o endpoint `https://api.hubapi.com/crm/v3/objects/contacts`.
+- Utilizado a API oficial do HubSpot com o endpoint `https://api.hubapi.com/crm/v3/objects/contacts`.
 - O `access_token` obtido no fluxo OAuth é utilizado para autenticar as chamadas de criação de contato.
 
 ### 4. **Tratamento Global de Exceções**
