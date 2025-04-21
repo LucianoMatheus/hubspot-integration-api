@@ -52,7 +52,7 @@ A API da HubSpot possui **limitações de taxa de requisição (rate limit)** e 
    - Automatizar o fluxo de renovação usando o `refresh_token`.
 
 2. **Cache para escopos e configurações**
-   - Cache das configurações do HubSpot, tokens e escopos usando a própria biblioteca do Sring, a Spring Cache ou outra similar.
+   - Cache das configurações do HubSpot, tokens e escopos usando a própria biblioteca do Spring, a Spring Cache ou outra similar.
 
 3. **Publicação com HTTPS**
    - Para Webhooks funcionarem corretamente em ambiente real, é necessário expor a aplicação em HTTPS público (como por exemplo: deploy via AWS/Heroku ou similar).
